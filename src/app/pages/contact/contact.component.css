@@ -1,0 +1,57 @@
+.btn.btn {
+    background-color: white;
+}
+
+.myform {
+    background-color: #009CC5;
+    border-radius: .9rem;
+    padding: 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h4 {
+    color: white;
+}
+
+.form-label {
+    color: white;
+}
+
+.Box p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    
+    .Box{
+        background-color: #009CC5;
+        padding: 10px 10px;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .reservasBox{
+        padding: 10px 5px;
+    }
+    
+    .reservasBox img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 5px;
+    } 
+    .reservasBox h1{
+        font-size: 18px;
+    }
+    
+    .btn_reserva{
+        color: white; 
+        background-color: #009CC5;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    

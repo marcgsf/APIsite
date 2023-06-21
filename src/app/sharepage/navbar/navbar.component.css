@@ -1,0 +1,36 @@
+.nav-item a{
+    color: #009CC5;
+    font-weight: bold;
+    
+}
+
+.nav-item a{
+    color:black;
+    
+}
+.nav-item a{
+    color:black;
+    
+}
+
+
+.nav-item a{
+    color: white;
+    padding: 20px;
+    margin-left: 200px;
+    
+}
+.container-fluid{
+    padding: 10px;
+    background-color:#009CC5;
+}
+.navbar .navbar-expand-lg .bg-body-tertiary{
+
+    padding: 0px;
+    margin:0px;
+}
+.navbar{
+    padding: 0;
+    margin: 0;
+}
+

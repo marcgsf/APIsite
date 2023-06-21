@@ -1,0 +1,20 @@
+{
+  "reservas": [
+    {
+      "name": "biscoito",
+      "email": "bolacha",
+      "telephone": "123456",
+      "inDate": "2023-06-20",
+      "outDate": "2023-06-30",
+      "id": 1
+    },
+    {
+      "name": "",
+      "email": "",
+      "telephone": "",
+      "inDate": "",
+      "outDate": "",
+      "id": 2
+    }
+  ]
+}

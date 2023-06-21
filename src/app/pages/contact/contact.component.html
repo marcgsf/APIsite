@@ -1,0 +1,70 @@
+<div class="container mt-4 mb-4">
+  <h3 class="text-center">Faça sua reserva</h3>
+  <div class="row">
+    <div class="col-lg-3" *ngFor=" let fd of reservasData">
+
+      <div class="reservasBox">
+        <img src="{{fd.reservasImg}}" />
+        <h1>{{fd.ReservasName}}</h1>
+        <p>{{fd.reservasPrice | currency: 'BRL'}}</p>
+        <a class="btn_reserva"
+          href="https://api.whatsapp.com/send/?phone=5521965351678&text&type=phone_number&app_absent=0"
+          target="_blank">Fazer reserva</a>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<br>
+<br>
+
+<form [formGroup]="reservForm" (ngSubmit)="formSubmit()">
+  <div class="container myform">
+    <h4>Deseja uma data personalizada? Preencha o formulário que iremos enviar o orçamento!</h4>
+    <div class="mb-3">
+      <label for="name" class="form-label">Nome</label>
+      <input type="text" name="name" id="name" class="form-control" formControlName="name">
+      <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">E-mail</label>
+      <input type="email" name="email" id="email" class="form-control" formControlName="email" required>
+      <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-3">
+      <label for="telephone" class="form-label">Celular</label>
+      <input type="tel" name="telephone" id="telephone" class="form-control" maxlength="13" formControlName="telephone">
+    </div>
+    <div class="mb-3">
+      <label for="inDate" class="form-label">Dia da entrada</label>
+      <input type="date" name="inDate" id="inDate" class="form-control" formControlName="inDate">
+    </div>
+    <div class="mb-3">
+      <label for="date" class="form-label">Dia da saída</label>
+      <input type="date" name="outDate" id="outDate" class="form-control" formControlName="outDate">
+    </div>
+    <button type="submit" class="btn btn">Enviar</button>
+  </div>
+</form>
+
+<!--<div class="container teste">
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+  </div>  -->
+<br>
+<br>

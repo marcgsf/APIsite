@@ -1,0 +1,116 @@
+.banner{
+    background-image: url('../../../assets/img/9e003a8f-8c9f-428d-9128-62209314f233.jpg');
+    height: 800px;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+.content{
+    top: 18%;
+    left: 20%;
+    position: absolute;
+}
+.content h2{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+.content a{
+    text-decoration: none;
+    background-color: #009CC5;
+    color: white;
+    padding: 16px 20px; 
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+.col-4 p{
+    text-decoration: none;
+    color: white; 
+    border-radius: 8px;
+    font-weight: bold;
+}
+.col-4{
+    background-image: url('../../../assets/img/9e003a8f-8c9f-428d-9128-62209314f233.jpg');
+    padding: 100px 100px; 
+    margin-bottom: 100px;
+}
+.col-6{
+    background-image: url('../../../assets/img/9e003a8f-8c9f-428d-9128-62209314f233.jpg');
+    padding: 100px 100px; 
+    margin-bottom: 100px;
+}
+.col-6 p{
+    text-decoration: none;
+    color: white; 
+    border-radius: 8px;
+    font-weight: bold;
+}
+.col-lg-6{
+    background-image: url('../../../assets/img/dbed30d4-11ed-4254-8504-a5fc0838c2bd.jpg');
+    padding: 100px 100px; 
+    margin-bottom: 100px;
+}
+
+.col-lg-6 p{
+    text-decoration: none;
+    color: white; 
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+.col{
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+
+}
+
+.Box h3{
+color: yellow;
+font-weight: bold;
+}
+
+.Box p{
+color: white;
+font-size: 20px;
+font-weight: bold;
+}
+
+.Box{
+    background-color: #009CC5;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.reservasBox{
+    padding: 10px 5px;
+}
+
+.reservasBox img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+} 
+.reservasBox h1{
+    font-size: 18px;
+}
+
+.btn_reserva{
+    color: white; 
+    background-color: #009CC5;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}

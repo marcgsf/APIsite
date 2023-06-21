@@ -1,0 +1,28 @@
+.footer{
+    overflow: hidden;
+    background-color: #009CC5;
+    position: sticky;
+    padding: 20px 10px;
+}
+
+ h1{
+    color: white;
+    font-size: 20px;
+    padding: 0px 50px;
+ }
+
+ a{
+    color: white;
+    text-decoration: name;
+    padding: 10px 10px;
+    font-size: 18px;
+ }
+
+ i{
+    padding: 0px px;
+    color: white;
+ }
+
+ .col-lg-6 p{
+   color:white;
+ }
